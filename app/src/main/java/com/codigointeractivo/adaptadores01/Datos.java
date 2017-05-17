@@ -11,7 +11,7 @@ public class Datos implements Serializable {
     private int Id;
     private String Titulo;
     private String Detalle;
-    private int Imagen;
+    private int Imagen; //cambios que tengo que realizar
 
     public Datos(String detalle, int id, int imagen, String titulo) {
         Detalle = detalle;
